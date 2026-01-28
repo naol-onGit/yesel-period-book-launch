@@ -3,29 +3,29 @@ import { ShoppingCart, ExternalLink } from "lucide-react";
 
 const CTASection = () => {
   return (
-    <section className="py-20 md:py-32 hero-gradient relative overflow-hidden">
+    <section className="py-16 md:py-24 hero-gradient relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-10 right-20 w-64 h-64 rounded-full bg-accent blur-3xl" />
-        <div className="absolute bottom-10 left-20 w-80 h-80 rounded-full bg-primary-foreground blur-3xl" />
+        <div className="absolute top-10 right-20 w-48 h-48 rounded-full bg-accent blur-3xl" />
+        <div className="absolute bottom-10 left-20 w-56 h-56 rounded-full bg-primary-foreground blur-3xl" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6 text-glow">
+        <div className="text-center max-w-2xl mx-auto">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary-foreground mb-4 text-glow">
             Get Your Copy Today
           </h2>
-          <p className="text-lg md:text-xl text-primary-foreground/80 mb-4">
+          <p className="text-base md:text-lg text-primary-foreground/80 mb-3">
             Yesel Period is available now on Yebuna Digital Shopping Platform
           </p>
-          <p className="text-2xl md:text-3xl font-bold text-primary-foreground mb-8">
+          <p className="text-xl md:text-2xl font-bold text-primary-foreground mb-6">
             ዋጋ 320 ብር
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Button
               variant="hero"
-              size="xl"
+              size="lg"
               asChild
               className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
             >
@@ -35,14 +35,14 @@ const CTASection = () => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2"
               >
-                <ShoppingCart className="w-5 h-5" />
+                <ShoppingCart className="w-4 h-4" />
                 Buy on Yebuna
-                <ExternalLink className="w-4 h-4" />
+                <ExternalLink className="w-3 h-3" />
               </a>
             </Button>
           </div>
 
-          <p className="mt-8 text-primary-foreground/60 text-sm">
+          <p className="mt-6 text-primary-foreground/60 text-xs">
             Secure payment • Fast delivery across Ethiopia
           </p>
         </div>
