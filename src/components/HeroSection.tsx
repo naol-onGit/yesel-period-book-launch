@@ -34,7 +34,7 @@ const HeroSection = () => {
               A bold and intimate exploration of love and consciousness set within the textured realities of Ethiopian social life.
             </p>
 
-            <div className="mt-6 text-primary-foreground/70 text-sm">
+            <div className="mb-5 text-primary-foreground/70 text-sm">
               <span className="font-semibold">ዋጋ 320 ብር</span> • Available on Yebuna
             </div>
 
@@ -48,10 +48,12 @@ const HeroSection = () => {
                   Get Your Copy
                 </a>
               </Button>
-              <Button variant="heroOutline" size="lg" asChild className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/20">
+              <Button variant="heroOutline" size="lg" asChild className="border-2 border-primary-foreground/50 text-primary-foreground hover:bg-primary-foreground/25 hover:border-primary-foreground/70">
                 <a href="#about">Learn More</a>
               </Button>
             </div>
+
+
           </div>
 
           {/* 3D Book */}
@@ -66,10 +68,11 @@ const HeroSection = () => {
           </div>
         </div>
 
+
         {/* Scroll indicator */}
         <div className="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce">
-          <a href="#about" className="text-primary-foreground/60 hover:text-primary-foreground transition-colors">
-            <ArrowDown size={24} />
+          <a href="#about" className="text-primary hover:text-primary/80 transition-colors">
+            <ArrowDown size={28} />
           </a>
         </div>
       </div>

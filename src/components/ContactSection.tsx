@@ -31,21 +31,21 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-4 max-w-lg mx-auto">
+        <div className="grid md:grid-cols-2 gap-5 max-w-4xl mx-auto">
           {contactInfo.map((item, index) => (
             <a
               key={index}
               href={item.href}
-              className="group p-5 rounded-xl bg-card border border-border/50 shadow-card hover:shadow-elegant transition-all duration-300 hover:-translate-y-1 flex items-center gap-3"
+              className="group p-6 rounded-xl bg-card border border-border/50 shadow-card hover:shadow-elegant transition-all duration-300 hover:-translate-y-1 flex flex-col items-center justify-center gap-3 text-center"
             >
-              <div className="w-11 h-11 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300 flex-shrink-0">
-                <item.icon className="w-5 h-5 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
+              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300 flex-shrink-0">
+                <item.icon className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
               </div>
               <div className="min-w-0">
-                <p className="text-xs text-muted-foreground mb-0.5">
+                <p className="text-xs text-muted-foreground mb-1">
                   {item.label}
                 </p>
-                <p className="text-foreground font-medium text-sm group-hover:text-primary transition-colors truncate">
+                <p className="text-foreground font-medium text-sm group-hover:text-primary transition-colors whitespace-nowrap">
                   {item.value}
                 </p>
               </div>

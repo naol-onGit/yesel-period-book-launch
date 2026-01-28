@@ -25,8 +25,8 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-          ? "bg-background/95 backdrop-blur-md border-b border-border/50 shadow-sm"
-          : "bg-transparent border-b border-transparent"
+        ? "bg-background/95 backdrop-blur-md border-b border-border/50 shadow-sm"
+        : "bg-transparent border-b border-transparent"
         }`}
     >
       <div className="container mx-auto px-4">
@@ -47,8 +47,8 @@ const Header = () => {
                 key={link.href}
                 href={link.href}
                 className={`transition-colors duration-300 font-medium ${isScrolled
-                    ? "text-foreground/70 hover:text-primary"
-                    : "text-primary-foreground/80 hover:text-primary-foreground"
+                  ? "text-foreground/70 hover:text-primary"
+                  : "text-primary-foreground/80 hover:text-primary-foreground"
                   }`}
               >
                 {link.label}
@@ -76,7 +76,9 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className={`md:hidden p-2 transition-colors duration-300 ${isScrolled ? "text-foreground" : "text-primary-foreground"
+            className={`md:hidden p-2 rounded-lg transition-all duration-300 ${isScrolled
+              ? "text-foreground hover:bg-primary/10"
+              : "text-primary-foreground hover:bg-primary-foreground/10"
               }`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
@@ -88,43 +90,45 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <nav
-            className={`md:hidden py-4 border-t ${isScrolled
-                ? "border-border/50 bg-background/95"
-                : "border-primary-foreground/20 bg-primary/90 backdrop-blur-md"
+            className={`md:hidden py-6 px-2 rounded-b-3xl shadow-xl animate-in slide-in-from-top-5 duration-300 ${isScrolled
+              ? "bg-background/98 backdrop-blur-lg"
+              : "bg-primary/95 backdrop-blur-lg"
               }`}
           >
-            <div className="flex flex-col gap-4">
-              {navLinks.map((link) => (
+            <div className="flex flex-col gap-2">
+              {navLinks.map((link, index) => (
                 <a
                   key={link.href}
                   href={link.href}
-                  className={`transition-colors duration-200 font-medium py-2 ${isScrolled
-                      ? "text-foreground/70 hover:text-primary"
-                      : "text-primary-foreground/80 hover:text-primary-foreground"
+                  className={`transition-all duration-200 font-medium py-3 px-4 rounded-lg ${isScrolled
+                    ? "text-foreground hover:text-primary hover:bg-primary/10"
+                    : "text-primary-foreground hover:bg-primary-foreground/15"
                     }`}
                   onClick={() => setIsMenuOpen(false)}
+                  style={{ animationDelay: `${index * 50}ms` }}
                 >
                   {link.label}
                 </a>
               ))}
-              <Button
-                variant={isScrolled ? "hero" : "heroOutline"}
-                size="lg"
-                asChild
-                className={
-                  isScrolled
-                    ? "mt-2"
-                    : "mt-2 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/20"
-                }
-              >
-                <a
-                  href="https://yebuna.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+              <div className="mt-3 px-2">
+                <Button
+                  variant={isScrolled ? "hero" : "heroOutline"}
+                  size="lg"
+                  asChild
+                  className={`w-full ${isScrolled
+                    ? ""
+                    : "border-2 border-primary-foreground/50 text-primary-foreground hover:bg-primary-foreground/20"
+                    }`}
                 >
-                  Get the Book
-                </a>
-              </Button>
+                  <a
+                    href="https://yebuna.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Get the Book
+                  </a>
+                </Button>
+              </div>
             </div>
           </nav>
         )}
