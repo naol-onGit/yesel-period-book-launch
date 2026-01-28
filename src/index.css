@@ -41,7 +41,7 @@
     --radius: 0.75rem;
 
     /* Custom tokens for book website */
-    --hero-gradient: linear-gradient(135deg, hsl(170 40% 30%), hsl(170 35% 45%));
+    --hero-gradient: linear-gradient(to bottom, hsl(170 40% 30%), hsl(170 35% 45%) 70%, hsl(170 25% 97%));
     --hero-overlay: linear-gradient(to bottom, hsl(170 40% 25% / 0.9), hsl(170 35% 35% / 0.7));
     --text-glow: 0 0 40px hsl(170 50% 40% / 0.3);
     --shadow-elegant: 0 20px 60px -15px hsl(170 50% 20% / 0.3);
@@ -116,19 +116,19 @@
   .hero-gradient {
     background: var(--hero-gradient);
   }
-  
+
   .hero-overlay {
     background: var(--hero-overlay);
   }
-  
+
   .text-glow {
     text-shadow: var(--text-glow);
   }
-  
+
   .shadow-elegant {
     box-shadow: var(--shadow-elegant);
   }
-  
+
   .shadow-card {
     box-shadow: var(--shadow-card);
   }

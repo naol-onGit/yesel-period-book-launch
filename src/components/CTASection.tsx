@@ -3,7 +3,7 @@ import { ShoppingCart, ExternalLink } from "lucide-react";
 
 const CTASection = () => {
   return (
-    <section className="py-16 md:py-24 hero-gradient relative overflow-hidden">
+    <section className="py-20 md:py-32 bg-primary relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 right-20 w-48 h-48 rounded-full bg-accent blur-3xl" />
@@ -11,14 +11,14 @@ const CTASection = () => {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary-foreground mb-4 text-glow">
+        <div className="text-center max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-5">
             Get Your Copy Today
           </h2>
-          <p className="text-base md:text-lg text-primary-foreground/80 mb-3">
+          <p className="text-base md:text-lg text-primary-foreground/80 mb-4">
             Yesel Period is available now on Yebuna Digital Shopping Platform
           </p>
-          <p className="text-xl md:text-2xl font-bold text-primary-foreground mb-6">
+          <p className="text-2xl md:text-3xl font-bold text-primary-foreground mb-8">
             ዋጋ 320 ብር
           </p>
 
@@ -42,7 +42,7 @@ const CTASection = () => {
             </Button>
           </div>
 
-          <p className="mt-6 text-primary-foreground/60 text-xs">
+          <p className="mt-8 text-primary-foreground/60 text-sm">
             Secure payment • Fast and Reliable access around the world
           </p>
         </div>

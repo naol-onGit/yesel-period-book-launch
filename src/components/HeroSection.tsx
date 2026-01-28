@@ -34,6 +34,10 @@ const HeroSection = () => {
               A bold and intimate exploration of love and consciousness set within the textured realities of Ethiopian social life.
             </p>
 
+            <div className="mt-6 text-primary-foreground/70 text-sm">
+              <span className="font-semibold">ዋጋ 320 ብር</span> • Available on Yebuna
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
               <Button variant="hero" size="lg" asChild className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
                 <a
@@ -47,10 +51,6 @@ const HeroSection = () => {
               <Button variant="heroOutline" size="lg" asChild className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/20">
                 <a href="#about">Learn More</a>
               </Button>
-            </div>
-
-            <div className="mt-6 text-primary-foreground/70 text-sm">
-              <span className="font-semibold">ዋጋ 320 ብር</span> • Available on Yebuna
             </div>
           </div>
 
