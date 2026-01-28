@@ -78,12 +78,12 @@ const AboutSection = () => {
               </p>
             </div>
           </div>
-          
+
           <div className="order-1 lg:order-2 flex justify-center">
             <img
               src={book3d}
               alt="Yesel Period Book"
-              className="max-w-[200px] md:max-w-[240px] w-full drop-shadow-xl"
+              className="max-w-[300px] md:max-w-[380px] w-full drop-shadow-xl"
             />
           </div>
         </div>

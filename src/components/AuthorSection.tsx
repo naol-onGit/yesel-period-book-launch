@@ -34,7 +34,7 @@ const AuthorSection = () => {
               Alemayehu Workshet Alemayehu
             </h3>
             <div className="w-16 h-1 bg-primary rounded-full mb-5" />
-            
+
             <div className="space-y-3 text-muted-foreground text-sm md:text-base leading-relaxed">
               <p>
                 Alemayehu Workshet Alemayehu is a thoughtful Ethiopian writer whose work explores the intersections of love, philosophy, and social consciousness in contemporary Ethiopian society.
@@ -44,15 +44,6 @@ const AuthorSection = () => {
               </p>
               <p>
                 His writing style blends personal narrative with philosophical inquiry, creating works that are both emotionally resonant and intellectually stimulating. Through his words, readers are invited to examine their own assumptions about love, relationships, and what it means to live authentically.
-              </p>
-            </div>
-
-            <div className="mt-6 p-5 rounded-xl bg-card border border-border/50 shadow-card">
-              <blockquote className="text-foreground italic text-base">
-                "Love is not only feeling, but resistance, awareness, and ethical choice."
-              </blockquote>
-              <p className="mt-2 text-primary font-medium text-sm">
-                — From Yesel Period
               </p>
             </div>
           </div>

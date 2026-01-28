@@ -21,15 +21,15 @@ const HeroSection = () => {
             <span className="inline-block px-3 py-1.5 rounded-full bg-primary-foreground/10 text-primary-foreground/90 text-xs font-medium mb-4 backdrop-blur-sm border border-primary-foreground/20">
               New Release
             </span>
-            
+
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-4 leading-tight text-glow">
               Yesel Period
             </h1>
-            
+
             <p className="text-base md:text-lg text-primary-foreground/90 mb-3 font-medium">
               By Alemayehu Workshet Alemayehu
             </p>
-            
+
             <p className="text-sm md:text-base text-primary-foreground/80 mb-6 max-w-lg mx-auto lg:mx-0 leading-relaxed">
               A bold and intimate exploration of love and consciousness set within the textured realities of Ethiopian social life.
             </p>
@@ -60,7 +60,7 @@ const HeroSection = () => {
               <img
                 src={book3d}
                 alt="Yesel Period Book"
-                className="relative max-w-[240px] md:max-w-[280px] lg:max-w-[320px] w-full transform hover:scale-105 transition-transform duration-500 drop-shadow-2xl"
+                className="relative max-w-[320px] md:max-w-[400px] lg:max-w-[480px] w-full transform hover:scale-105 transition-transform duration-500 drop-shadow-2xl"
               />
             </div>
           </div>

@@ -17,27 +17,25 @@ const Header = () => {
 
   const navLinks = [
     { href: "#home", label: "Home" },
-    { href: "#about", label: "About the Book" },
-    { href: "#author", label: "The Author" },
+    { href: "#about", label: "About" },
+    { href: "#author", label: "Author" },
     { href: "#contact", label: "Contact" },
   ];
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
           ? "bg-background/95 backdrop-blur-md border-b border-border/50 shadow-sm"
           : "bg-transparent border-b border-transparent"
-      }`}
+        }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a
             href="#home"
-            className={`text-xl md:text-2xl font-bold transition-colors duration-300 ${
-              isScrolled ? "text-primary" : "text-primary-foreground"
-            }`}
+            className={`text-xl md:text-2xl font-bold transition-colors duration-300 ${isScrolled ? "text-primary" : "text-primary-foreground"
+              }`}
           >
             Yesel Period
           </a>
@@ -48,11 +46,10 @@ const Header = () => {
               <a
                 key={link.href}
                 href={link.href}
-                className={`transition-colors duration-300 font-medium ${
-                  isScrolled
+                className={`transition-colors duration-300 font-medium ${isScrolled
                     ? "text-foreground/70 hover:text-primary"
                     : "text-primary-foreground/80 hover:text-primary-foreground"
-                }`}
+                  }`}
               >
                 {link.label}
               </a>
@@ -79,9 +76,8 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className={`md:hidden p-2 transition-colors duration-300 ${
-              isScrolled ? "text-foreground" : "text-primary-foreground"
-            }`}
+            className={`md:hidden p-2 transition-colors duration-300 ${isScrolled ? "text-foreground" : "text-primary-foreground"
+              }`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -92,22 +88,20 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <nav
-            className={`md:hidden py-4 border-t ${
-              isScrolled
+            className={`md:hidden py-4 border-t ${isScrolled
                 ? "border-border/50 bg-background/95"
                 : "border-primary-foreground/20 bg-primary/90 backdrop-blur-md"
-            }`}
+              }`}
           >
             <div className="flex flex-col gap-4">
               {navLinks.map((link) => (
                 <a
                   key={link.href}
                   href={link.href}
-                  className={`transition-colors duration-200 font-medium py-2 ${
-                    isScrolled
+                  className={`transition-colors duration-200 font-medium py-2 ${isScrolled
                       ? "text-foreground/70 hover:text-primary"
                       : "text-primary-foreground/80 hover:text-primary-foreground"
-                  }`}
+                    }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.label}

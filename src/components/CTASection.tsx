@@ -43,7 +43,7 @@ const CTASection = () => {
           </div>
 
           <p className="mt-6 text-primary-foreground/60 text-xs">
-            Secure payment • Fast delivery across Ethiopia
+            Secure payment • Fast and Reliable access around the world
           </p>
         </div>
       </div>
