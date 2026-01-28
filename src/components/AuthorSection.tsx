@@ -17,12 +17,12 @@ const AuthorSection = () => {
           {/* Author Image */}
           <div className="flex justify-center">
             <div className="relative">
-              <div className="absolute inset-0 bg-primary/30 rounded-2xl blur-xl transform rotate-3" />
-              <div className="relative overflow-hidden rounded-2xl shadow-elegant">
+              <div className="absolute inset-0 bg-primary/30 rounded-full blur-xl" />
+              <div className="relative overflow-hidden rounded-full shadow-elegant w-56 h-56 md:w-64 md:h-64">
                 <img
                   src={authorImage}
                   alt="Alemayehu Workshet Alemayehu - Author of Yesel Period"
-                  className="w-full max-w-xs object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
             </div>
