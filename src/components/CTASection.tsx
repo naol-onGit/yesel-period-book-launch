@@ -19,7 +19,7 @@ const CTASection = () => {
             Yesel Period is available now on Yebuna Digital Shopping Platform
           </p>
           <p className="text-2xl md:text-3xl font-bold text-primary-foreground mb-8">
-            ዋጋ 320 ብር
+            Available at Jafer, Book World, Mega and any other book retail shop
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -30,7 +30,7 @@ const CTASection = () => {
               className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
             >
               <a
-                href="https://yebuna.com"
+                href="https://ye-buna.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2"

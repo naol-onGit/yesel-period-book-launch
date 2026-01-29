@@ -35,13 +35,13 @@ const HeroSection = () => {
             </p>
 
             <div className="mb-5 text-primary-foreground/70 text-sm">
-              <span className="font-semibold">ዋጋ 320 ብር</span> • Available on Yebuna
+              <span className="font-semibold">Get your copy now at Jafer, Book World, Mega and any other book retail shop</span>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
               <Button variant="hero" size="lg" asChild className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
                 <a
-                  href="https://yebuna.com"
+                  href="https://ye-buna.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
