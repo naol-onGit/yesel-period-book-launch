@@ -37,13 +37,10 @@ const AuthorSection = () => {
 
             <div className="space-y-3 text-muted-foreground text-sm md:text-base leading-relaxed">
               <p>
-                Alemayehu Workshet Alemayehu is a thoughtful Ethiopian writer whose work explores the intersections of love, philosophy, and social consciousness in contemporary Ethiopian society.
+                Alemayehu Workshet Alemayehu is the author of Yesel Period, a thought provoking book rooted in the lived experiences and intellectual traditions of the Ethiopian community. Drawing on emotions, reasoning, philosophy, psychology, and cultural traditions, his writing explores how personal and collective realities shape human understanding. Through a reflective and analytical lens, he connects inner emotional worlds with broader social and philosophical questions.
               </p>
               <p>
-                With Yesel Period, he demonstrates intellectual courage in addressing topics that have long been surrounded by silence—sex, feminism, gender, and power—while maintaining deep respect for Ethiopian cultural traditions.
-              </p>
-              <p>
-                His writing style blends personal narrative with philosophical inquiry, creating works that are both emotionally resonant and intellectually stimulating. Through his words, readers are invited to examine their own assumptions about love, relationships, and what it means to live authentically.
+                Alemayehu holds a B.A. degree in Social Science and a B.A. degree in Language and Literature, a background that strongly informs his multidisciplinary approach to writing. He has worked in various governmental and private institutions, gaining diverse professional experience. Currently, he is the owner and CEO of Dok’a Podcast and manages private business , balancing creative expression with entrepreneurship.
               </p>
             </div>
           </div>
