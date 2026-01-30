@@ -62,7 +62,7 @@ const HeroSection = () => {
               <img
                 src={book3d}
                 alt="Yesel Period Book"
-                className="relative max-w-[320px] md:max-w-[400px] lg:max-w-[480px] w-full transform hover:scale-105 transition-transform duration-500 drop-shadow-2xl"
+                className="relative max-w-[380px] md:max-w-[480px] lg:max-w-[560px] w-full transform hover:scale-105 transition-transform duration-500 drop-shadow-2xl"
               />
             </div>
           </div>
