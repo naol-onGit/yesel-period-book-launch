@@ -53,7 +53,12 @@ const HeroSection = () => {
               </Button>
             </div>
 
-
+            {/* Scroll indicator - below Learn More */}
+            <div className="flex justify-center lg:justify-start mt-8 animate-bounce">
+              <a href="#about" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+                <ArrowDown size={28} />
+              </a>
+            </div>
           </div>
 
           {/* 3D Book */}
@@ -66,14 +71,6 @@ const HeroSection = () => {
               />
             </div>
           </div>
-        </div>
-
-
-        {/* Scroll indicator */}
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce">
-          <a href="#about" className="text-primary hover:text-primary/80 transition-colors">
-            <ArrowDown size={28} />
-          </a>
         </div>
       </div>
     </section>
