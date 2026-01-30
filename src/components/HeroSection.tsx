@@ -53,12 +53,6 @@ const HeroSection = () => {
               </Button>
             </div>
 
-            {/* Scroll indicator - always centered */}
-            <div className="flex justify-center mt-8 animate-bounce">
-              <a href="#about" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">
-                <ArrowDown size={28} />
-              </a>
-            </div>
           </div>
 
           {/* 3D Book */}
