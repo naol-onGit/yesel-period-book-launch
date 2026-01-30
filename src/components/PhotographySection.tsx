@@ -64,11 +64,10 @@ const PhotographySection = () => {
               <button
                 key={index}
                 onClick={() => api?.scrollTo(index)}
-                className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                  current === index
+                className={`w-2 h-2 rounded-full transition-all duration-300 ${current === index
                     ? "bg-primary w-6"
                     : "bg-primary/30 hover:bg-primary/50"
-                }`}
+                  }`}
                 aria-label={`Go to slide ${index + 1}`}
               />
             ))}
@@ -78,8 +77,7 @@ const PhotographySection = () => {
         {/* Description */}
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-foreground/85 text-sm md:text-base leading-relaxed">
-            This conceptual photography project draws inspiration from Ethiopian mythology, where a rich world of spirits is woven into children's stories and oral traditions across the country. Through this work, Alemayehu seeks to translate these intangible beings into a visual language, bridging folklore and contemporary art. Smoke is deliberately chosen as the central subject for its elusive, shifting nature—at once present and intangible—mirroring how these spirits exist in memory, imagination, and belief rather than in physical form. From a cultural perspective, the images honor storytelling as a vessel of ancestral knowledge; from a symbolic one, they explore the tension between visibility and invisibility; and from a modern artistic lens, they invite viewers to reconsider how myth can be re-experienced in a visual, conceptual world.
-          </p>
+            This conceptual photography project draws inspiration from Ethiopian mythology, where a rich  spirits is woven into children’s stories and oral traditions across the country. Through this work, Alemayehu seeks to translate these intangible beings into a visual language, bridging folklore and contemporary art. Smoke is deliberately chosen as the central subject for its elusive, shifting nature at once present and intangible mirroring how these spirits exist in memory, imagination, and belief rather than in physical form. From a cultural perspective, the images honor storytelling as a vessel of ancestral knowledge from a symbolic one, they explore the tension between visibility and invisibility and from a modern artistic lens, they invite viewers to reconsider how myth can be re-experienced in a visual, conceptual world.          </p>
         </div>
       </div>
     </section>
