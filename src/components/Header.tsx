@@ -37,7 +37,7 @@ const Header = () => {
             className={`text-xl md:text-2xl font-bold transition-colors duration-300 ${isScrolled ? "text-primary" : "text-primary-foreground"
               }`}
           >
-            Yesel Period
+            Alemayehu Workshet
           </a>
 
           {/* Desktop Navigation */}

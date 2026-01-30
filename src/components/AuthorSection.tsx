@@ -37,10 +37,13 @@ const AuthorSection = () => {
 
             <div className="space-y-3 text-muted-foreground text-sm md:text-base leading-relaxed">
               <p>
-                Alemayehu Workshet Alemayehu is the author of Yesel Period, a thought provoking book rooted in the lived experiences and intellectual traditions of the Ethiopian community. Drawing on emotions, reasoning, philosophy, psychology, and cultural traditions, his writing explores how personal and collective realities shape human understanding. Through a reflective and analytical lens, he connects inner emotional worlds with broader social and philosophical questions.
+                Alemayehu Workshet Alemayehu is the author of Yesel Period, a thought provoking book grounded in the lived experiences and intellectual traditions of the Ethiopian community. His writing draws on emotion, reason, philosophy, psychology, and cultural heritage to explore how personal and collective realities shape human understanding. Through a reflective and analytical lens, he connects inner emotional worlds with broader social, cultural, and philosophical questions.
               </p>
               <p>
-                Alemayehu holds a B.A. degree in Social Science and a B.A. degree in Language and Literature, a background that strongly informs his multidisciplinary approach to writing. He has worked in various governmental and private institutions, gaining diverse professional experience. Currently, he is the owner and CEO of Dok’a Podcast and manages private business , balancing creative expression with entrepreneurship.
+                He holds a Bachelor of Arts in Social Science and a Bachelor of Arts in Language and Literature. Alemayehu’s diverse professional journey includes teaching at elementary and high school levels, working as a radio journalist with Jimma Community Radio, Fana Broadcasting Corporate, and Zami FM, serving as a project manager for various NGOs, and working within the Addis Ababa City Administration. He has also served as paramilitary personnel and is a conceptual photographer grounded in Ethiopian mythology’s.
+              </p>
+              <p>
+                This wide ranging background strongly informs his multidisciplinary approach to writing, allowing him to blend intellectual inquiry with real world experience. Currently, Alemayehu is the Founder and CEO of Dok’a Podcast and manages private business ventures, balancing creative expression with entrepreneurship.
               </p>
             </div>
           </div>
