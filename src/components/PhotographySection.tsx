@@ -39,7 +39,7 @@ const PhotographySection = () => {
         </div>
 
         {/* Photo Carousel */}
-        <div className="max-w-2xl mx-auto mb-10">
+        <div className="max-w-md mx-auto mb-10">
           <Carousel setApi={setApi} opts={{ loop: true }} className="w-full">
             <CarouselContent>
               {photos.map((photo, index) => (
