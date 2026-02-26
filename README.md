@@ -22,7 +22,7 @@ This project demonstrates frontend architecture, responsive UI design, and struc
 
 ## 🚀 Live Demo
 
-🔗 [https://alemayehuworkshetalemyehu.vercel.app](https://alemayehuworkshetalemyehu.vercel.app)
+🔗 [https://alemayehuworkshetalemayehu.vercel.app](https://alemayehuworkshetalemayehu.vercel.app)
 
 
 ---
