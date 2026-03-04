@@ -30,7 +30,7 @@ const CTASection = () => {
               className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
             >
               <a
-                href="https://ye-buna.com/"
+                href="https://ye-buna.com/alemayehuworksh"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2"

@@ -65,7 +65,7 @@ const Header = () => {
               }
             >
               <a
-                href="https://ye-buna.com/"
+                href="https://ye-buna.com/alemayehuworksh"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -121,7 +121,7 @@ const Header = () => {
                     }`}
                 >
                   <a
-                    href="https://ye-buna.com/"
+                    href="https://ye-buna.com/alemayehuworksh"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
